@@ -2,23 +2,23 @@
 /* Class = "NSTextFieldCell"; title = "Settings"; ObjectID = "1Is-Ut-a9h"; */
 "1Is-Ut-a9h.title" = "Tuỳ chọn";
 
-/* Class = "NSMenuItem"; title = "Hidden Bar"; ObjectID = "1Xt-HY-uBw"; */
-"1Xt-HY-uBw.title" = "Hidden Bar";
+/* Class = "NSMenuItem"; title = "PureMenu"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "PureMenu";
 
 /* Class = "NSTextFieldCell"; title = "⭐️Always Hidden"; ObjectID = "1jU-1x-cFf"; */
 "1jU-1x-cFf.title" = "⭐️Luôn ẩn";
 
-/* Class = "NSTextFieldCell"; title = "Hidden Bar"; ObjectID = "2xp-Ht-xa6"; */
-"2xp-Ht-xa6.title" = "Hidden Bar";
+/* Class = "NSTextFieldCell"; title = "PureMenu"; ObjectID = "2xp-Ht-xa6"; */
+"2xp-Ht-xa6.title" = "PureMenu";
 
 /* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "4Au-5A-dYq"; */
 "4Au-5A-dYq.title" = "Phiên bản";
 
-/* Class = "NSMenuItem"; title = "Quit Hidden Bar"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Thoát Hidden Bar";
+/* Class = "NSMenuItem"; title = "Quit PureMenu"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Thoát PureMenu";
 
-/* Class = "NSMenuItem"; title = "About Hidden Bar"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About Hidden Bar";
+/* Class = "NSMenuItem"; title = "About PureMenu"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About PureMenu";
 
 /* Class = "NSButtonCell"; title = "Use the full MenuBar on expanding"; ObjectID = "8z8-6N-wnc"; */
 "8z8-6N-wnc.title" = "Sử dụng toàn thanh công cụ khi mở rộng";
@@ -68,8 +68,8 @@
 /* Class = "NSButtonCell"; title = "Enable always hidden section"; ObjectID = "Nhn-ch-1f7"; */
 "Nhn-ch-1f7.title" = "Bật tính năng luôn ẩn";
 
-/* Class = "NSMenuItem"; title = "Hide Hidden Bar"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Ẩn Hidden Bar";
+/* Class = "NSMenuItem"; title = "Hide PureMenu"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Ẩn PureMenu";
 
 /* Class = "NSTextFieldCell"; title = "Follow us on Twitter"; ObjectID = "Tba-C7-Zr8"; */
 "Tba-C7-Zr8.title" = "Theo dõi chúng tôi trên Twitter";
@@ -77,8 +77,8 @@
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
 "Vdr-fp-XzO.title" = "Hide Others";
 
-/* Class = "NSButtonCell"; title = "Start Hidden Bar when I log in"; ObjectID = "W1G-55-zGo"; */
-"W1G-55-zGo.title" = "Chạy Hidden Bar khi khởi động";
+/* Class = "NSButtonCell"; title = "Start PureMenu when I log in"; ObjectID = "W1G-55-zGo"; */
+"W1G-55-zGo.title" = "Chạy PureMenu khi khởi động";
 
 /* Class = "NSTextFieldCell"; title = "Menu bar cleaner"; ObjectID = "X4W-sr-Z32"; */
 "X4W-sr-Z32.title" = "Menu bar cleaner";
@@ -116,7 +116,7 @@
 /* Class = "NSTextFieldCell"; title = "Shown"; ObjectID = "iyS-g5-5mk"; */
 "iyS-g5-5mk.title" = "Hiện";
 
-/* Class = "NSTextFieldCell"; title = "In your Mac's menu bar, hold ⌘ and drag icons\nbetween sections to configure Hidden Bar."; ObjectID = "k7C-e5-6a0"; */
+/* Class = "NSTextFieldCell"; title = "In your Mac's menu bar, hold ⌘ and drag icons\nbetween sections to configure PureMenu."; ObjectID = "k7C-e5-6a0"; */
 "k7C-e5-6a0.title" = "Ở thanh menu hệ thống, giữ phím ⌘ và nhấn chuột kéo icons\n di chuyển đến vùng cần ẩn /hiện.";
 
 /* Class = "NSButtonCell"; title = "Automatically hide icon after: "; ObjectID = "kg8-rW-srh"; */
@@ -131,8 +131,8 @@
 /* Class = "NSTextFieldCell"; title = "Email us"; ObjectID = "sRr-sO-uV0"; */
 "sRr-sO-uV0.title" = "Email cho chúng tôi";
 
-/* Class = "NSMenu"; title = "Hidden Bar"; ObjectID = "uQy-DD-JDr"; */
-"uQy-DD-JDr.title" = "Hidden Bar";
+/* Class = "NSMenu"; title = "PureMenu"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "PureMenu";
 
 /* Class = "NSMenuItem"; title = "10 seconds"; ObjectID = "z2X-nw-vxX"; */
 "z2X-nw-vxX.title" = "10 giây";

@@ -27,6 +27,7 @@ class AboutViewController: NSViewController {
         guard let version = Bundle.main.releaseVersionNumber,
                 let buildNumber = Bundle.main.buildVersionNumber else { return }
         lblVersion.stringValue += " \(version) (\(buildNumber))"
+        PureAppsGate.brandAboutPane(view, versionLabel: lblVersion)
     }
     
 }

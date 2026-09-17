@@ -1,22 +1,22 @@
 /* Class = "NSTextFieldCell"; title = "Settings"; ObjectID = "1Is-Ut-a9h"; */
 "1Is-Ut-a9h.title" = "الإعدادات";
 
-/* Class = "NSMenuItem"; title = "Hidden Bar"; ObjectID = "1Xt-HY-uBw"; */
+/* Class = "NSMenuItem"; title = "PureMenu"; ObjectID = "1Xt-HY-uBw"; */
 "1Xt-HY-uBw.title" = "الشريط المخفي";
 
 /* Class = "NSTextFieldCell"; title = "⭐️Always Hidden"; ObjectID = "1jU-1x-cFf"; */
 "1jU-1x-cFf.title" = "⭐️مخفي دائما";
 
-/* Class = "NSTextFieldCell"; title = "Hidden Bar"; ObjectID = "2xp-Ht-xa6"; */
+/* Class = "NSTextFieldCell"; title = "PureMenu"; ObjectID = "2xp-Ht-xa6"; */
 "2xp-Ht-xa6.title" = "الشريط المخفي";
 
 /* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "4Au-5A-dYq"; */
 "4Au-5A-dYq.title" = "الإصدار";
 
-/* Class = "NSMenuItem"; title = "Quit Hidden Bar"; ObjectID = "4sb-4s-VLi"; */
+/* Class = "NSMenuItem"; title = "Quit PureMenu"; ObjectID = "4sb-4s-VLi"; */
 "4sb-4s-VLi.title" = "إنهاء الشريط المخفي";
 
-/* Class = "NSMenuItem"; title = "About Hidden Bar"; ObjectID = "5kV-Vb-QxS"; */
+/* Class = "NSMenuItem"; title = "About PureMenu"; ObjectID = "5kV-Vb-QxS"; */
 "5kV-Vb-QxS.title" = "حول الشريط المخفي";
 
 /* Class = "NSButtonCell"; title = "Use the full MenuBar on expanding"; ObjectID = "8z8-6N-wnc"; */
@@ -67,7 +67,7 @@
 /* Class = "NSButtonCell"; title = "Enable always hidden section"; ObjectID = "Nhn-ch-1f7"; */
 "Nhn-ch-1f7.title" = "تمكين القسم المخفي دائما";
 
-/* Class = "NSMenuItem"; title = "Hide Hidden Bar"; ObjectID = "Olw-nP-bQN"; */
+/* Class = "NSMenuItem"; title = "Hide PureMenu"; ObjectID = "Olw-nP-bQN"; */
 "Olw-nP-bQN.title" = "أخف الشريط المخفي";
 
 /* Class = "NSTextFieldCell"; title = "Follow us on Twitter"; ObjectID = "Tba-C7-Zr8"; */
@@ -76,7 +76,7 @@
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
 "Vdr-fp-XzO.title" = "أخف الآخرين";
 
-/* Class = "NSButtonCell"; title = "Start Hidden Bar when I log in"; ObjectID = "W1G-55-zGo"; */
+/* Class = "NSButtonCell"; title = "Start PureMenu when I log in"; ObjectID = "W1G-55-zGo"; */
 "W1G-55-zGo.title" = "شغل الشريط المخفي عندما أقوم بتسجيل الدخول";
 
 /* Class = "NSTextFieldCell"; title = "Menu bar cleaner"; ObjectID = "X4W-sr-Z32"; */
@@ -115,7 +115,7 @@
 /* Class = "NSTextFieldCell"; title = "Shown"; ObjectID = "iyS-g5-5mk"; */
 "iyS-g5-5mk.title" = "ظاهر";
 
-/* Class = "NSTextFieldCell"; title = "In your Mac's menu bar, hold ⌘ and drag icons\nbetween sections to configure Hidden Bar."; ObjectID = "k7C-e5-6a0"; */
+/* Class = "NSTextFieldCell"; title = "In your Mac's menu bar, hold ⌘ and drag icons\nbetween sections to configure PureMenu."; ObjectID = "k7C-e5-6a0"; */
 "k7C-e5-6a0.title" = "في شريط القائمة الخاص بـMac الخاص بك، استمر بالضغط على ⌘ واسحب الأيقونات\nبين الأقسام لتكوين الشريط المخفي.";
 
 /* Class = "NSButtonCell"; title = "Automatically hide icon after: "; ObjectID = "kg8-rW-srh"; */
@@ -130,7 +130,7 @@
 /* Class = "NSTextFieldCell"; title = "Email us"; ObjectID = "sRr-sO-uV0"; */
 "sRr-sO-uV0.title" = "راسلنا إلكنرونيا";
 
-/* Class = "NSMenu"; title = "Hidden Bar"; ObjectID = "uQy-DD-JDr"; */
+/* Class = "NSMenu"; title = "PureMenu"; ObjectID = "uQy-DD-JDr"; */
 "uQy-DD-JDr.title" = "الشريط المخفي";
 
 /* Class = "NSMenuItem"; title = "10 seconds"; ObjectID = "z2X-nw-vxX"; */

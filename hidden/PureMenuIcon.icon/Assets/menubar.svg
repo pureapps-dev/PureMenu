@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="1024px" height="1024px">
+  <!-- A menu bar strip: three status icons and the collapse chevron, cut out as real holes
+       (evenodd) because the glass material flattens partial opacity. White only, per the
+       PureApps icon rule. Bounding box 64x24 around the centre: half-diagonal 34.2, inside
+       the radius-35 circle, so a round crop never clips it. -->
+  <path fill="#fff" fill-rule="evenodd" d="
+    M24 38h52a6 6 0 0 1 6 6v12a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6V44a6 6 0 0 1 6-6z
+    M26.5 50a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0-7 0z
+    M36.5 50a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0-7 0z
+    M46.5 50a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0-7 0z
+    M71 42l3 3l-5 5l5 5l-3 3l-8-8z"/>
+</svg>

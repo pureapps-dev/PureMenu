@@ -12,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Hidden Bar" id="1Xt-HY-uBw">
+                            <menuItem title="PureMenu" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Hidden Bar" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="PureMenu" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Hidden Bar" id="5kV-Vb-QxS">
+                                        <menuItem title="About PureMenu" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -30,7 +30,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Hidden Bar" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide PureMenu" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -48,7 +48,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Hidden Bar" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit PureMenu" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -164,7 +164,7 @@
                                                             <subviews>
                                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ekW-28-SJX">
                                                                     <rect key="frame" x="-2" y="25" width="176" height="41"/>
-                                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Hidden Bar" id="2xp-Ht-xa6">
+                                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="PureMenu" id="2xp-Ht-xa6">
                                                                         <font key="font" metaFont="systemMedium" size="35"/>
                                                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -427,7 +427,7 @@
                                             <textFieldCell key="cell" alignment="center" id="k7C-e5-6a0">
                                                 <font key="font" metaFont="system"/>
                                                 <string key="title">In your Mac's menu bar, hold ⌘ and drag icons
-between sections to configure Hidden Bar.</string>
+between sections to configure PureMenu.</string>
                                                 <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
@@ -629,7 +629,7 @@ between sections to configure Hidden Bar.</string>
                                         <subviews>
                                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cbR-Jv-adm">
                                                 <rect key="frame" x="-2" y="116" width="207" height="18"/>
-                                                <buttonCell key="cell" type="check" title="Start Hidden Bar when I log in" bezelStyle="regularSquare" imagePosition="left" inset="2" id="W1G-55-zGo">
+                                                <buttonCell key="cell" type="check" title="Start PureMenu when I log in" bezelStyle="regularSquare" imagePosition="left" inset="2" id="W1G-55-zGo">
                                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                     <font key="font" metaFont="system"/>
                                                 </buttonCell>

@@ -267,6 +267,7 @@ class StatusBarController {
             autoCollapseIfNeeded()
             return
         }
+        guard PureAppsGate.allowHiding() else { return }
 
         btnSeparate.length = self.btnHiddenCollapseLength
         if let button = btnExpandCollapse.button {

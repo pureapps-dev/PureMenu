@@ -9,7 +9,7 @@
 import Foundation
 
 enum Constant {
-    static let appName = "Hidden Bar"
+    static let appName = "PureMenu"
 
     static var isUsingLTRLanguage = false
 }

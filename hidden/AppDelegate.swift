@@ -27,6 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate{
     }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        PureAppsGate.checkAtLaunch()
         setupAutoStartApp()
         registerDefaultValues()
         setupHotKey()
@@ -50,7 +51,7 @@ class AppDelegate: NSObject, NSApplicationDelegate{
         // macOS never garbage-collects that record (TN3111), so deauthorize it once.
         let migratedKey = "smAppServiceMigrated"
         guard !UserDefaults.standard.bool(forKey: migratedKey) else { return }
-        SMLoginItemSetEnabled("com.dwarvesv.LauncherApplication" as CFString, false)
+        SMLoginItemSetEnabled("apps.pure.puremenu.LauncherApplication" as CFString, false)
         UserDefaults.standard.set(true, forKey: migratedKey)
     }
     

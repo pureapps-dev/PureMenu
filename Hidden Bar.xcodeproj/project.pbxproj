@@ -34,6 +34,9 @@
 		92C97B9122018C1F0007559C /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C97B9022018C1F0007559C /* StatusBarController.swift */; };
 		967F4B2524169BC800F18D3C /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967F4B2424169BC800F18D3C /* String+Extension.swift */; };
 		967F4B2824169CAF00F18D3C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 967F4B2A24169CAF00F18D3C /* Localizable.strings */; };
+		AB10000000000000000002 /* PureMenuIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = AB10000000000000000001 /* PureMenuIcon.icon */; };
+		AB10000000000000000004 /* PureAppsGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10000000000000000003 /* PureAppsGate.swift */; };
+		AB20000000000000000003 /* PureAppsLicense in Frameworks */ = {isa = PBXBuildFile; productRef = AB20000000000000000002 /* PureAppsLicense */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +85,8 @@
 		B8404C9A24041A4300E6DBF8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		FF57A44B25E6C50200988FC2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		FF8A0FB5265E10DB00C76226 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		AB10000000000000000001 /* PureMenuIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = PureMenuIcon.icon; sourceTree = "<group>"; };
+		AB10000000000000000003 /* PureAppsGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureApps/PureAppsGate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08A5F85F23AA01EE00981CA5 /* HotKey in Frameworks */,
+				AB20000000000000000003 /* PureAppsLicense in Frameworks */,
 				92C5058121FEC2590084719A /* Cocoa.framework in Frameworks */,
 				92C5057F21FEC24C0084719A /* ServiceManagement.framework in Frameworks */,
 			);
@@ -194,6 +200,8 @@
 				9267D3212201A49200EFFCE2 /* Common */,
 				92C97B89220049B30007559C /* Views */,
 				929113F421F9D04100173149 /* AppDelegate.swift */,
+				AB10000000000000000003 /* PureAppsGate.swift */,
+				AB10000000000000000001 /* PureMenuIcon.icon */,
 				929113F821F9D04200173149 /* Assets.xcassets */,
 				929113FA21F9D04200173149 /* Main.storyboard */,
 				929113FD21F9D04200173149 /* Info.plist */,
@@ -239,6 +247,7 @@
 			name = "Hidden Bar";
 			packageProductDependencies = (
 				08A5F85E23AA01EE00981CA5 /* HotKey */,
+				AB20000000000000000002 /* PureAppsLicense */,
 			);
 			productName = vanillaClone;
 			productReference = 929113F121F9D04100173149 /* Hidden Bar.app */;
@@ -284,6 +293,7 @@
 			mainGroup = 929113E821F9D04100173149;
 			packageReferences = (
 				08A5F85D23AA01EE00981CA5 /* XCRemoteSwiftPackageReference "HotKey" */,
+				AB20000000000000000001 /* XCLocalSwiftPackageReference "../../license" */,
 			);
 			productRefGroup = 929113F221F9D04100173149 /* Products */;
 			projectDirPath = "";
@@ -300,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929113F921F9D04200173149 /* Assets.xcassets in Resources */,
+				AB10000000000000000002 /* PureMenuIcon.icon in Resources */,
 				967F4B2824169CAF00F18D3C /* Localizable.strings in Resources */,
 				929113FC21F9D04200173149 /* Main.storyboard in Resources */,
 			);
@@ -320,6 +331,7 @@
 				55F3F1192608923B0054B881 /* Date+Extension.swift in Sources */,
 				08B9F32C2411883300AA0551 /* NSWindow+Extension.swift in Sources */,
 				929113F521F9D04100173149 /* AppDelegate.swift in Sources */,
+				AB10000000000000000004 /* PureAppsGate.swift in Sources */,
 				08C20FDE23AABDD10035D978 /* HyperlinkTextField.swift in Sources */,
 				92C97B88220032ED0007559C /* Util.swift in Sources */,
 				967F4B2524169BC800F18D3C /* String+Extension.swift in Sources */,
@@ -494,13 +506,15 @@
 		9291141821F9D04200173149 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = PureMenuIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Hidden/Hidden.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 14;
-				DEVELOPMENT_TEAM = W777S7V8TN;
+				DEVELOPMENT_TEAM = VFYA7T675R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = hidden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -508,9 +522,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dwarvesv.minimalbar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pure.puremenu;
+				PRODUCT_MODULE_NAME = Hidden_Bar;
+				PRODUCT_NAME = PureMenu;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -519,13 +534,15 @@
 		9291141921F9D04200173149 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = PureMenuIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = Hidden/Hidden.entitlements;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 14;
-				DEVELOPMENT_TEAM = W777S7V8TN;
+				DEVELOPMENT_TEAM = VFYA7T675R;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = hidden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -533,9 +550,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dwarvesv.minimalbar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = apps.pure.puremenu;
+				PRODUCT_MODULE_NAME = Hidden_Bar;
+				PRODUCT_NAME = PureMenu;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -564,6 +582,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		AB20000000000000000001 /* XCLocalSwiftPackageReference "../../license" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../license;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		08A5F85D23AA01EE00981CA5 /* XCRemoteSwiftPackageReference "HotKey" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -580,6 +605,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 08A5F85D23AA01EE00981CA5 /* XCRemoteSwiftPackageReference "HotKey" */;
 			productName = HotKey;
+		};
+		AB20000000000000000002 /* PureAppsLicense */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PureAppsLicense;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
